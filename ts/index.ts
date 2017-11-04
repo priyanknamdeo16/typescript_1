@@ -1,6 +1,7 @@
 class Person {
     constructor() {
-        console.log('person');
+        console.log('aa12');
+ 
     }
 }
 

@@ -1,6 +1,6 @@
 var Person = /** @class */ (function () {
     function Person() {
-        console.log('person');
+        console.log('aa12');
     }
     return Person;
 }());
