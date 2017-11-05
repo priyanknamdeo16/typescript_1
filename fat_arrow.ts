@@ -28,6 +28,7 @@
     let abc = fn();
 }
 /////////////////////////////////
+//SOLUTION - passing type as this
 {
     interface House {
         name : string;
@@ -48,7 +49,7 @@
         getPerson : function (this:House) {
             return () => {
                 return {
-                    name : this.name,
+                    name : this.name, //this refers to HOUSE object, and this.name is kul
                     age : 30
                 };
             };
