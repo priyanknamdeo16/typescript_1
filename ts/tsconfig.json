@@ -2,7 +2,8 @@
     "compilerOptions": {
         "target": "es5",
         "outFile": "../js/index.js",
-        "sourceMap": true
+        "sourceMap": true,
+        "noImplicitThis": true
     },
     "exclude": [
         "node_modules"
